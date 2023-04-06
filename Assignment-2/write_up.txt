@@ -1,0 +1,3 @@
+I discussed with Sarthak Singla regarding what features can be used but implemented them on my own.
+
+For NER, I have gone through wikipedia links
