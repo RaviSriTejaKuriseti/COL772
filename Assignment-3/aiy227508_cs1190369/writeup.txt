@@ -1,0 +1,29 @@
+Collaborated with:
+1. Ashish (PhD)
+2. Ayush (PhD)
+
+Code walk-through:
+
+1. Data Reading
+    train.jsonl for training
+    dev.jsonl for validation
+
+2. Create DATA loader for the model:
+
+3. Initialize training loop
+
+Hacks:
+    Random initializations for initial hidden_state
+    Weighted loss, with less loss on "O" class
+    best model on validation is saved
+
+
+
+
+
+
+
+
+resource1 : https://pytorch.org/tutorials/beginner/nlp/sequence_models_tutorial.html
+resource2 : chatGPT for syntax and batching
+
