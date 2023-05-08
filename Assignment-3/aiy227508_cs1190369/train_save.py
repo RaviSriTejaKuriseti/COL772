@@ -13,9 +13,8 @@ import pickle
 import argparse
 
 def train(train_file_path, val_file_path, model_name):
-    train_file_path = "/home/kshitiz/scratch/NLP/A3/data/train.jsonl"
+    
     train_data = BARTDataset(train_file_path)
-    val_file_path = "/home/kshitiz/scratch/NLP/A3/data/dev.jsonl"
     val_data = BARTDataset(val_file_path)
 
     # train_data = train_data+val_data
